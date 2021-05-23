@@ -2,37 +2,43 @@
 
 /* 回答はここに書いてね */
 
-.q6--horizontal .q6__box__text {
+.q6--horizontal .q6__box__text__textalign {
   width: 90px;
   background-color: #e6f2ff;
   padding: 10px;
 }
 
-.q6__box.text-align .q6__box__inner {
+.q6--horizontal .q6__box__text__textmargin {
+  width: 90px;
+  background-color: #e6f2ff;
+  padding: 10px;
+}
+
+.q6__box.textblock .q6__box__down {
   text-align: center;
 }
 
-.q6__box.text-align .q6__box__text {
+.q6__box.textblock .q6__box__text__textalign {
   display: inline-block;
 }
 
-.q6__box.margin .q6__box__text {
+.q6__box.marginblock .q6__box__text__textmargin {
   margin: 0 auto;
   text-align: center;
 }
 
-.q6--around.table {
+.q6--around.is-table {
   display: table;
 }
 
-.q6--around.table .q6__box {
+.q6--around.is-table .q6__box__tableblock {
   display: table-cell;
   text-align: center;
   background-color: #ecf1f2;
   vertical-align: middle;
 }
 
-.q6--around.table .q6__box__text {
+.q6--around.is-table .q6__box__text__texttable {
   display: inline-block;
   padding: 10px;
   background-color: #fff;
@@ -44,7 +50,7 @@
   justify-content: center;
 }
 
-.q6--around.flex .q6__box__text {
+.q6--around.flex .q6__box__text__textflex {
   padding: 10px;
   background-color: #fff;
 }
@@ -69,5 +75,7 @@
   top: 50%;
   left: 50%;
 }
+
+
 
 /* 回答はここに書いてね */

@@ -2,29 +2,41 @@
 
 /* 回答はここに書いてね */
 
-.q2 {
+.q2__content {
   width: 900px;
   background-color: #eff3f4;
   padding: 20px;
   margin: 0 auto;
 }
 
-.text {
+.q2__content__text {
   font-size: 18px;
   line-height: 22px;
+  word-break: break-all;
+}
+
+.q2__content__block {
+  margin-bottom: 10px;
+}
+
+.q2__content__block > img {
   vertical-align: bottom;
 }
 
-.q2__seabox {
+.q2__content__block.seabox {
   float: left;
-  margin-bottom: 10px;
   margin-right: 20px;
 }
 
-.q2__blackbox {
+.q2__content__block.blackbox {
   float: right;
-  margin-bottom: 10px;
   margin-left: 20px;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
 }
 
 /* 回答はここに書いてね */

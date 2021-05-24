@@ -21,7 +21,7 @@
 
 .q4__content__block__cell {
   display: table-cell;
-  padding: 20px;
+  padding: 20px 0;
   text-align: center;
 }
 

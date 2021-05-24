@@ -13,7 +13,6 @@
 
 .q5__content__block {
   width: 100px;
-  height: 100px;
   position: absolute;
   text-align: center;
   line-height: 100px;
@@ -24,60 +23,61 @@
 .q5__content__block.contents__1 {
   background-color: #ffefd3;
   z-index: 1;
-  margin-top: 40px;
-  margin-left: 200px;
+  top: 40px;
+  left: 200px;
 }
 
 .q5__content__block.contents__2 {
   background-color: #7084de;
   z-index: 2;
-  margin-top: 120px;
-  margin-left: 280px;
+  top: 120px;
+  left: 280px;
 }
 
 .q5__content__block.contents__3 {
   background-color: #d0ecea;
   z-index: 3;
-  margin-top: 200px;
-  margin-left: 360px;
+  top: 200px;
+  right: 40px;
 }
 
 .q5__content__block.contents__4 {
   background-color: #8b7a5e;
   z-index: 4;
-  margin-top: 280px;
-  margin-left: 280px;
+  top: 280px;
+  right: 120px;
 }
 
 .q5__content__block.contents__5 {
   background-color: #9fd6d2;
   z-index: 5;
-  margin-top: 360px;
-  margin-left: 200px;
+  top: 360px;
+  left: 200px;
 }
 
 .q5__content__block.contents__6 {
   background-color: #fffee4;
   z-index: 6;
-  margin-top: 280px;
-  margin-left: 120px;
+  top: 280px;
+  left: 120px;
 }
 
 .q5__content__block.contents__7 {
   background-color: #deae70;
   z-index: 7;
-  margin-top: 200px;
-  margin-left: 40px;
+  top: 200px;
+  left: 40px;
 }
 
 .q5__content__block.contents__8 {
   background-color: #de70cf;
   z-index: 8;
-  margin-top: 120px;
-  margin-left: 120px;
+  top: 120px;
+  left: 120px;
 }
 
 .q5__content__block.contents__9 {
+  z-index: 10;
   background-color: #2b69a3;
   position: fixed;
   top: 10px;
@@ -90,7 +90,8 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  right: 0px;
+  top: 0;
+  right: 0;
 }
 
 /* 回答はここに書いてね */

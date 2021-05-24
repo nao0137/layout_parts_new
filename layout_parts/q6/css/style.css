@@ -2,55 +2,49 @@
 
 /* 回答はここに書いてね */
 
-.q6--horizontal .q6__box__text__textalign {
+.q6--horizontal .q6__box__text.font {
   width: 90px;
   background-color: #e6f2ff;
-  padding: 10px;
+  padding: 10px 0;
 }
 
-.q6--horizontal .q6__box__text__textmargin {
-  width: 90px;
-  background-color: #e6f2ff;
-  padding: 10px;
-}
-
-.q6__box.textblock .q6__box__down {
+.q6__box.is-textalign.textblock .q6__box__inner.gray {
   text-align: center;
 }
 
-.q6__box.textblock .q6__box__text__textalign {
+.q6__box.is-textalign.textblock .q6__box__text.font {
   display: inline-block;
 }
 
-.q6__box.marginblock .q6__box__text__textmargin {
+.q6__box.is-margin.marginblock .q6__box__text.font {
   margin: 0 auto;
   text-align: center;
 }
 
-.q6--around.is-table {
+.q6--around.is-table.tableblock {
   display: table;
 }
 
-.q6--around.is-table .q6__box__tableblock {
+.q6--around.is-table.tableblock .q6__box.tablegray {
   display: table-cell;
   text-align: center;
   background-color: #ecf1f2;
   vertical-align: middle;
 }
 
-.q6--around.is-table .q6__box__text__texttable {
+.q6--around.is-table.tableblock .q6__box__text.font {
   display: inline-block;
   padding: 10px;
   background-color: #fff;
 }
 
-.q6--around.flex {
+.q6--around.is-flex.flexblock {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.q6--around.flex .q6__box__text__textflex {
+.q6--around.is-flex.flexblock .q6__box__text.font {
   padding: 10px;
   background-color: #fff;
 }
@@ -59,7 +53,7 @@
   position: relative;
 }
 
-.q6__box.is-stable .q6__box__inner {
+.q6__box.is-stable.stableblock .q6__box__inner.stablefont {
   position: absolute;
   margin: auto;
   top: 0;
@@ -68,7 +62,7 @@
   bottom: 0;
 }
 
-.q6__box.is-flexible .q6__box__inner {
+.q6__box.is-flexible.flexblock .q6__box__inner.flexfont {
   position: absolute;
   transform: translate(-50%, -50%);
   text-align: center;

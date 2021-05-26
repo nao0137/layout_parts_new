@@ -2,4 +2,96 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.q7 .pikatext {
+  width: 225px;
+}
+
+.floatbox .pikatext {
+  float: left;
+  margin-left: 50px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.floatbox .pikatext:first-child {
+  margin-left: 0;
+}
+
+.tablebox .tableinner {
+  display: table;
+}
+
+.tablebox .pikatext {
+  display: table-cell;
+  padding-left: 50px;
+  vertical-align: middle;
+}
+
+.tablebox .pikatext:first-child {
+  padding-left: 0;
+}
+
+.tablebox .pityutext {
+  font-size: 16px;
+}
+
+.inlineblockbox .inlineblockinner {
+  font-size: 0;
+}
+
+.inlineblockbox .pikatext {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.inlineblockbox .pikatext:first-child {
+  margin-left: 0;
+}
+
+.flexbox .flexinner {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flexbox .pikatext {
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.marginbox .margininner {
+  font-size: 0;
+}
+
+.marginbox .stablepikatext {
+  vertical-align: top;
+}
+
+.marginbox .stablepikatext {
+  display: inline-block;
+  width: 300px;
+}
+
+.marginbox .flexiblepikatext {
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+}
+
+.marginbox .pityutext {
+  font-size: 16px;
+}
+
 /* 回答はここに書いてね */
